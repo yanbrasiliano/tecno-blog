@@ -1,5 +1,4 @@
 /*limpar formatações padrões */
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -13,23 +12,64 @@ body {
 
 }
 
+/* Layout */
 
 #menu0{
-
+background-color: #5F04B4;	
+padding: 15px;
+text-align: center;
 
 }
 #menu1{
-
-	background: purple;
+	padding: 10px;
+	background: #5F04B4;
 }
 
 #menu2{
 
-	
+	padding: 10px;
+}
+/* Links */
+a{
+padding: 10px 15px;
+text-decoration: none;
+
 }
 
-a{
-padding: 10px 10px;
-text-decoration: none;
+/* Links não visitados */
+
+a:link{
+
+	color: black;
+
+
+}
+
+/* Links visitados */
+
+a:visited{
+
+	color: black;
+
+
+}
+
+a:hover{
+
+	color: white;
+	background:yellowgreen;
+
+}
+
+/* Geral */
+
+h1{
+
+	color: #A4A4A4;
+	font-size: 50px;
+}
+
+.color{
+color: white;
 
 }
