@@ -6,7 +6,4 @@
 <h3> Overview :computer: </h3>
 <hr>
 
-Overview
-<hr>
-
 ![test](https://user-images.githubusercontent.com/72168914/103179741-d1988180-486d-11eb-9aec-f75e1228b85d.gif)
