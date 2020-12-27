@@ -1,0 +1,29 @@
+/*limpar formatações padrões */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif
+	background: #E6E6E6;
+
+}
+
+
+#menu0{
+
+
+}
+#menu1{
+
+	background: purple;
+}
+
+#menu2{
+
+	text-decoration: none;
+}
