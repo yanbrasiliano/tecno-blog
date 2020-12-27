@@ -1,15 +1,15 @@
 /*limpar formatações padrões */
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
 body {
-	
+	background-color: #D8D8D8;	
 	font-size: 15px;
 	font-family: Arial, Helvetica, sans-serif
-	background: #E6E6E6;
-
+	
 }
 
 /* Layout */
@@ -36,6 +36,27 @@ text-decoration: none;
 
 }
 
+#main-area{
+	padding: 20px;
+	width: 950px;
+	margin: 0px auto;
+
+}
+
+.post{
+width: 660px;
+float: left;
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+
+}
+
+#lateral-area{
+width: 200px;
+float: right;
+background-color: orange;
+}
 /* Links não visitados */
 
 a:link{
@@ -57,7 +78,7 @@ a:visited{
 a:hover{
 
 	color: white;
-	background:yellowgreen;
+	background:yellowgreen
 
 }
 
@@ -68,8 +89,36 @@ h1{
 	color: #A4A4A4;
 	font-size: 50px;
 }
+h2{
 
+	color: #2E2E2E;
+	font-size: 30px;
+}
 .color{
 color: white;
 
+}
+
+.clear{
+
+	clear: both;
+}
+
+.data-post{
+
+	font-size: 0.8em;
+	border-bottom: 2px solid #2E2E2E ;
+	padding-bottom: 10px;
+	display: block;
+	margin-bottom: 10px
+	
+
+}
+
+footer{
+	text-align: center;
+	background-color: #848484;
+	font-weight: 800;
+	padding: 15px;
+	font: 15px Arial,Helvetica, sans-serif;
 }
